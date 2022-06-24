@@ -1,5 +1,5 @@
 import "./Hero.css";
-import Logo from "./static/logo.jpg";
+import Logo from "./static/logo.png";
 
 function Hero() {
     return <div>
@@ -17,6 +17,7 @@ function Hero() {
             </div>
             <div className="header">
                 <h1 className="header__title">STEM For-Youth, By-Youth</h1>
+                <h2 className="header__subtitle">Welcome to the Naperville Chapter!</h2>
                 <div className="header__links">
                     <a className="header__link">Learn More</a>
                     <a className="header__link">Schedule</a>
