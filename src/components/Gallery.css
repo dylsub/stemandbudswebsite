@@ -7,21 +7,21 @@
 }
 .gallery__row div {
     width: 25vw;
-    height: 14vw;
+    height: 15.8vw;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .gallery__row div img {
-    width: 30vw;
+    width: 33vw;
     height: auto;
     filter: brightness(0.6);
     transition: 0.2s;
 }
 
 .gallery__row div:hover img {
-    width: 27vw;
+    width: 30vw;
     filter: brightness(1);
 }
 

@@ -10,13 +10,13 @@
 
 .about__title {
     color: white;
-    font-size: 4.5rem;
-    margin-right: 75px;
+    font-size: 3.75rem;
+    margin-right: 100px;
     width: 300px;
     padding: 0;
     text-align: left;
     transition: 0.3s;
-    font-family: 'Stick No Bills';
+    /* font-family: 'Stick No Bills'; */
 }
 
 .about__title:hover{
@@ -25,13 +25,35 @@
 }
 
 .about__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__info {
     color: white;
     width: 500px;
     font-size: 1.5rem;
     transition: 0.3s;
 }
 
-.about__content:hover {
+.about__info:hover {
     transform: scale(105%);
     transition: 0.3s;
+}
+
+.about__link {
+    text-align: center;
+    width: 75px;
+    background-color: #68C4B1;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #68C4B1;
+    transition: 0.15s;
+}
+.about__link:hover{
+    background: #57ad9c;
+    border: 1px solid #57ad9c;
 }
