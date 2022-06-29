@@ -1,0 +1,43 @@
+.gallery {
+    height: 500px;
+    
+}
+.gallery__row {
+    display: flex;
+}
+.gallery__row div {
+    width: 25vw;
+    height: 14vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery__row div img {
+    width: 30vw;
+    height: auto;
+    filter: brightness(0.6);
+    transition: 0.2s;
+}
+
+.gallery__row div:hover img {
+    width: 27vw;
+    filter: brightness(1);
+}
+
+@media only screen and (max-width: 1000px) {
+    .gallery__row {
+        flex-direction: column;
+    }
+    .gallery__row div {
+        width: 100vw;
+        height: 52vw;
+    }
+    .gallery__row div img {
+        width: 100vw;
+    }
+    .gallery__row div:hover img {
+        width: 100vw;
+        filter: brightness(1);
+    }
+}
