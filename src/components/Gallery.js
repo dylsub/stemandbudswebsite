@@ -1,16 +1,18 @@
 
 import "./Gallery.css"
 import one from "../static/1.png";
-import two from "../static/2.jpg";
-import three from "../static/3.webp";
+import two from "../static/2.png";
+import three from "../static/3.png";
 import four from "../static/4.png";
-import five from "../static/5.jpg";
-import six from "../static/6.jpg";
-import seven from "../static/7.jpg";
-import eight from "../static/8.jpg";
+import five from "../static/5.png";
+import six from "../static/6.png";
+import seven from "../static/7.png";
+import eight from "../static/8.png";
+import paperbordertop from "../static/paperbordertop.png";
 
 function Gallery() {
     return <div className="gallery">
+        <img className="border__top" src={paperbordertop}></img>
         <div className="gallery__row">
             <div><img src={one}></img></div>
             <div><img src={two}></img></div>
@@ -23,6 +25,7 @@ function Gallery() {
             <div><img src={seven}></img></div>
             <div><img src={eight}></img></div>
         </div>
+        <img className="border__bottom" src={paperbordertop}></img>
     </div>
 }
 

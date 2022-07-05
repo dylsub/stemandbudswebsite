@@ -69,7 +69,7 @@
     margin-top: 0;
     margin-bottom: 45px;
     font-size: 2rem;
-    color: #68C4B1;
+    color: #FF8A8A;
     font-weight: 400;
 }
 .header__links {
@@ -81,21 +81,21 @@
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 20px;
-    border: 1px solid #68C4B1;
+    border: 1px solid #FF8A8A;
     transition: 0.15s;
 }
 .header__link:first-of-type{
     color: white;
-    background: #68C4B1;
+    background: #FF8A8A;
 }
 .header__link:first-of-type:hover{
-    background: #57ad9c;
-    border: 1px solid #57ad9c;
+    background: #f57c7c;
+    border: 1px solid #f57c7c;
 }
 .header__link:last-of-type{
-    color: #68C4B1;
+    color: #FF8A8A;
 }
 .header__link:last-of-type:hover{
-    background: #68C4B1;
+    background: #f57c7c;
     color: white;
 }

@@ -1,7 +1,23 @@
+
 .gallery {
-    height: 500px;
-    
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+    position: relative;
 }
+.border__top {
+    width: 100vw;
+    margin-bottom: -5px;
+    background: #68C4B1;
+}
+.border__bottom {
+    width: 100vw;
+    transform: rotate(180deg);
+    background: #7775c2;
+    margin-bottom: -5px;
+    /* #d5dbda; */
+}
+
 .gallery__row {
     display: flex;
 }
@@ -28,6 +44,9 @@
 @media only screen and (max-width: 1000px) {
     .gallery__row {
         flex-direction: column;
+    }
+    .gallery__row:last-of-type{
+        display: none;
     }
     .gallery__row div {
         width: 100vw;
