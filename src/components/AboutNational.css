@@ -1,5 +1,6 @@
+
+
 .about__national {
-    padding-top: 50px;
     margin-top: -22px;
     width: 100vw;
     height: 450px;
@@ -24,11 +25,6 @@
     transform: scale(105%);
     transition: 0.3s;
 }
-
-/* .about__content {
-    display: flex;
-    flex-direction: column;
-} */
 
 .about__info {
     color: white;
@@ -78,4 +74,14 @@
 }
 .about__website ion-icon {
     margin-bottom: -3px;
+}
+.hero__border__bottom{
+    width: 100vw;
+    transform: rotate(180deg);
+    background: #68C4B1;
+    margin-bottom: -5px;
+    /* #d5dbda; */
+}
+.hero__tape {
+    top: 34vw;
 }

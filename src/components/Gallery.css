@@ -41,6 +41,42 @@
     filter: brightness(1);
 }
 
+.tape__top {
+    top: 7.5vw;
+}
+.tape__bottom {
+    top: 38vw;
+}
+.tape {
+    width: 10vw;
+    position: absolute;
+}
+.tape1 {
+    transform: rotate(160deg);
+    left: -50px;
+}
+.tape2 {
+    transform: rotate(20deg);
+    left: 92vw;
+    
+}
+.tape3 {
+    transform: rotate(0deg);
+    left: 45vw;
+}
+.tape4 {
+    transform: rotate(180deg);
+    left: 45vw;
+}
+.tape5 {
+    transform: rotate(200deg);
+    left: -50px;
+}
+.tape6 {
+    transform: rotate(340deg);
+    left: 92vw;
+}
+
 @media only screen and (max-width: 1000px) {
     .gallery__row {
         flex-direction: column;
