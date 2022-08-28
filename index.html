@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Naperville STEM & Buds Chapter">
+    <meta name="keywords"
+        content="stemandbudsnaperville, stem & buds, naperville, stem, learning, free, nonprofit, 95th street library">
+    <meta name="author" content="Dylan Subramanian">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>STEM & Buds Naperville</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    <!-- <link rel="stylesheet" href="assets/normalize.css"> -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/hero.css">
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/gallery.css">
+    <link rel="stylesheet" href="/assets/css/team.css">
+    <link rel="stylesheet" href="assets/css/queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+
+    <script defer src="assets/js/team.js"></script>
+    <script defer src="assets/js/script.js"></script>
+    <script defer src="assets/js/leaflet.js"></script>
+</head>
+
+<body>
+    <div class="main">
+
+        <div id="home" class="hero">
+            <div class="mobile__nav animate__animated animate__slideInLeft animate__faster">
+                <div class="mobile__nav__brand">
+                    <a href="#home">
+                        <img class="mobile__nav__logo" src="assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="mobile__nav__links">
+                    <h2 class="mobile__nav__link" data-tab="0"><a class="nav__link__a" href="#national">About
+                            Us</a>
+                    </h2>
+                    <h2 class="mobile__nav__link" data-tab="1"><a class="nav__link__a" href="#regional">Our
+                            Program</a></h2>
+                    <h2 class="mobile__nav__link" data-tab="2"><a class="nav__link__a" href="#team">Our
+                            Team</a></h2>
+                    <h2 class="mobile__nav__link" data-tab="3"><a class="nav__link__a" href="#contact">Contact Us</a>
+                    </h2>
+                    <div class="mobile__socials">
+                        <a href="https://www.instagram.com/stemandbuds/" target="_blank">
+                            <ion-icon class="instagram social" name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="https://twitter.com/stemandbuds" target="_blank">
+                            <ion-icon class="twitter social" name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCObQHffPzd3jmg5Uyld0ELQ/featured" target="_blank">
+                            <ion-icon class="youtube social" name="logo-youtube"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav sticky__nav disable-select animate__animated animate__slideInDown animate__faster">
+                <div class="nav__brand">
+                    <a href="#home">
+                        <img class="nav__logo" src="assets/img/logo.png">
+                    </a>
+                </div>
+                <div class="nav__links">
+                    <h2 class="nav__link nav__active" data-tab="0"><a class="nav__link__a" href="#national">About
+                            Us</a>
+                    </h2>
+                    <h2 class="nav__link" data-tab="1"><a class="nav__link__a" href="#regional">Our Program</a></h2>
+                    <h2 class="nav__link" data-tab="2"><a class="nav__link__a" href="#team">Our Team</a></h2>
+                    <h2 class="nav__link" data-tab="3"><a class="nav__link__a" href="#contact">Contact Us</a></h2>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/stemandbuds/" target="_blank">
+                            <ion-icon class="instagram social" name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="https://twitter.com/stemandbuds" target="_blank">
+                            <ion-icon class="twitter social" name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCObQHffPzd3jmg5Uyld0ELQ/featured" target="_blank">
+                            <ion-icon class="youtube social" name="logo-youtube"></ion-icon>
+                        </a>
+                    </div>
+                    <ion-icon class="hidden menu__outline" name="menu-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="nav">
+                <div class="nav__brand">
+                    <img class="nav__logo" src="./assets/img/logo.png"></img>
+                </div>
+                <div class="nav__links">
+                    <h2 class="nav__link nav__active" data-tab="0"><a class="nav__link__a" href="#national">About
+                            Us</a>
+                    </h2>
+                    <h2 class="nav__link" data-tab="1"><a class="nav__link__a" href="#regional">Our Program</a></h2>
+                    <h2 class="nav__link" data-tab="2"><a class="nav__link__a" href="#team">Our Team</a></h2>
+                    <h2 class="nav__link" data-tab="3"><a class="nav__link__a" href="#contact">Contact Us</a></h2>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/stemandbuds/" target="_blank">
+                            <ion-icon class="instagram social" name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="https://twitter.com/stemandbuds" target="_blank">
+                            <ion-icon class="twitter social" name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCObQHffPzd3jmg5Uyld0ELQ/featured" target="_blank">
+                            <ion-icon class="youtube social" name="logo-youtube"></ion-icon>
+                        </a>
+                    </div>
+                    <ion-icon class="hidden menu__outline" name="menu-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="header">
+                <h1 class="header__title">STEM For-Youth, By-Youth</h1>
+                <h2 class="header__subtitle">Welcome to the Naperville Chapter!</h2>
+                <div class="header__links">
+                    <a class="header__link" href="#national">Learn More</a>
+                    <a class="header__link" href="#calendar">Schedule</a>
+                </div>
+
+            </div>
+        </div>
+
+        <a class="anchor" id="national"></a>
+        <div>
+            <img src="assets/img/paperbordertop.png" class="hero__border__bottom" alt="paper border"></img>
+            <div class="about__national">
+                <h1 class="about__title">Nationally inspiring kids since 2018</h1>
+                <div class="about__content">
+                    <p class="about__info">STEM & Buds is a for-youth, by-youth 501(c)(3) bridging students to mentors,
+                        shaping ideas into initiatives, and translating science for civics. We try to make STEM—and its
+                        issues that affect us—participatory and accessible for all. For more information regarding our
+                        national reach and mission, please visit
+                        our national website below. </p>
+                    <div class="about__links">
+                        <a class="about__link" href="#regional">Us Locally</a>
+                        <a class="about__website" href="https://stemandbuds.org" target="_blank">
+                            <ion-icon name="open-outline"></ion-icon> National Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery gallery1">
+            <img class="border__top" src="assets/img/paperbordertop.png" alt="paper border"></img>
+            <div class="gallery__row">
+                <div> <img class="lazy__load" data-src="assets/img/1.jpg" src="assets/img/lazyload/1.jpg"
+                        alt="egg drop picture"></img></div>
+                <div><img class="lazy__load" data-src="assets/img/2.jpg" src="assets/img/lazyload/2.jpg"
+                        alt="roller coaster picture"></img></div>
+                <div><img class="lazy__load" data-src="assets/img/3.jpg" src="assets/img/lazyload/3.jpg"
+                        alt="group picture"></img></div>
+                <div><img class="lazy__load" data-src="assets/img/4.jpg" src="assets/img/lazyload/4.jpg"
+                        alt="tin foil boat picture"></img></div>
+            </div>
+            <div class="gallery__row">
+                <div><img class="lazy__load" data-src="assets/img/5.jpg" src="assets/img/lazyload/5.jpg"
+                        alt="highschool volunteer picture"></img></div>
+                <div><img class="lazy__load" data-src="assets/img/6.jpg" src="assets/img/lazyload/6.jpg"
+                        alt="roller coaster picture"></img></div>
+                <div><img class="lazy__load" data-src="assets/img/7.jpg" src="assets/img/lazyload/7.jpg"
+                        alt="slime picture"></img></div>
+                <div><img class="lazy__load" data-src="assets/img/8.jpg" src="assets/img/lazyload/8.jpg"
+                        alt="egg drop picture"></img></div>
+            </div>
+            <img class="border__bottom" src="assets/img/paperbordertop.png" alt="paper border"></img>
+            <img class="tape1 tape tape__top" src="assets/img/tape.png" alt="tape"></img>
+            <img class="tape2 tape tape__top" src="assets/img/tape.png" alt="tape"></img>
+            <img class="tape5 tape tape__bottom" src="assets/img/tape.png" alt="tape"></img>
+            <img class="tape6 tape tape__bottom" src="assets/img/tape.png" alt="tape"></img>
+        </div>
+
+        <a class="anchor2" id="regional"></a>
+        <div class="about__regional">
+            <div class="about__full">
+                <div class="about__content">
+                    <h1 class="about__title">We're in Naperville!</h1>
+                    <p class="about__info">Our Naperville chapter focuses on exposing elementary and middle school
+                        students to diverse STEM topics through hands-on work and real-life applications. Then with the
+                        support of their mentors, students reflect on their identities and interests to create their own
+                        STEM-based project which they will share at the end of the program. Our free sessions are held
+                        at the 95th Street Naperville Public Library. Please check the schedule and join the mailing
+                        list below for program information and session dates!</p>
+                    <div class="about__links">
+                        <a href="#" class="about__link cantClick">Join List</a>
+                        <a href="#calendar" class="about__link">Schedule</a>
+                    </div>
+                </div>
+                <div id="map">
+
+                </div>
+            </div>
+        </div>
+
+        <a class="anchor" id="calendar"></a>
+        <div class="calendar">
+            <!-- <img class="border__top" src="assets/img/paperbordertop.png"></img> -->
+            <div class="calendar__box">
+                <div class="calendar__frame">
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%237775c2&ctz=America%2FChicago&showTitle=1&showNav=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&title='&src=OGRvdmlldHR0a2J2b29qaDJmbzdhZzRiOGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23795548"
+                        style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+
+                <div class="calendar__text">
+                    <h1 class="calendar__title about__title">Schedule</h1>
+                    <p class="calendar__content about__info">Throughout the school year, we meet biweekly on Mondays.
+                        Our Google Calendar is a great place to check out future session dates and topics!</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="anchor2" id=""></a>
+        <div class="about__summer">
+            <div class="about__full">
+                <div class="about__content">
+                    <h1 class="about__title">Our Summer Camp</h1>
+                    <p class="about__info">Every year, we host a completely free summer camp focused on having a ton of
+                        fun and meeting friends while learning STEM! This multi-day program is
+                        filled with activities, projects, and competitions!</p>
+                    <div class="about__links">
+                        <a href="#" class="about__link cantClick">Register</a>
+                        <a class="about__website" href="https://www.youtube.com/watch?v=cdIxzgm5-Xk" target="_blank">
+                            <ion-icon name="open-outline"></ion-icon> Summer Camp Video
+                        </a>
+                    </div>
+                </div>
+                <div class="summer__picture__container"><img class="lazy__load" data-src="assets/img/3.jpg"
+                        src="assets/img/lazyload/3.jpg" alt="summer camp picture"></img></div>
+            </div>
+        </div>
+
+        <div class="gallery gallery2">
+            <img class="border__top" src="assets/img/paperbordertop.png" alt="paper border"></img>
+            <div class="gallery__row">
+                <div> <img class="lazy__load" data-src="assets/img/9.jpg" src="assets/img/lazyload/9.jpg"
+                        alt="egg drop picture"></img></div>
+                <div><img class="lazy__load" data-src="assets/img/10.jpg" src="assets/img/lazyload/10.jpg"
+                        alt="roller coaster picture"></img></div>
+            </div>
+            <img class="border__bottom" src="assets/img/paperbordertop.png" alt="paper border"></img>
+            <img class="tape1 tape tape__top" src="assets/img/tape.png" alt="tape"></img>
+            <img class="tape2 tape tape__top" src="assets/img/tape.png" alt="tape"></img>
+            <img class="tape5 tape tape__bottom" src="assets/img/tape.png" alt="tape"></img>
+            <img class="tape6 tape tape__bottom" src="assets/img/tape.png" alt="tape"></img>
+        </div>
+
+        <a class="anchor2" id="team"></a>
+        <div class="team">
+            <h1 class="team__title">Our Naperville Team</h1>
+            <h2 class="team__subtitle">We are a passionate group of students with lots of creative ideas.</h2>
+            <div class="team__box">
+
+            </div>
+        </div>
+
+        <a class="anchor2" id="contact"></a>
+        <div>
+            <div class="about__national contact">
+                <h1 class="about__title">Feel free to contact us!</h1>
+                <div class="about__content">
+                    <p class="about__info">If you have any questions, concerns, or just want to connect with our team of
+                        mentors,
+                        please contact
+                        our email. For more information regarding our national reach, please visit
+                        our national website below.<br><br>
+                        <ion-icon class="contact__icon" name="mail-unread-outline"></ion-icon>
+                        stemandbudsnaperville@gmail.com<br>
+                        <ion-icon class="contact__icon" name="globe-outline"></ion-icon> stemandbuds.org
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Copyright © STEM & Buds 2022 | STEM & Buds is a registered 501(c)(3) nonprofit </p>
+        </div>
+    </div>
+</body>
+
+</html>

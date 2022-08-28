@@ -1,0 +1,113 @@
+/* ********* */
+/* Team Page */
+/* ********* */
+
+.team {
+    background: #68C4B1;
+    height: auto;
+    width: calc(100vw - (100vw - 100%));;
+    padding: 50px 0 50px 0px;
+}
+
+.team__title {
+    color: white;
+    font-size: 3.75rem;
+    padding: 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.team__title:hover{
+    transform: scale(105%);
+    transition: 0.3s;
+}
+
+.team__subtitle {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.team__member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    margin-right: -25px;
+    margin-left: -25px;
+}
+
+.team__member__picture {
+    background:url("../img/teambackground7.png");
+    transform: scaleX(-1);
+    width: 400px;
+    height: 400px;
+    background-size:cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__row {
+    display: flex;
+    width: calc(100vw - (100vw - 100%));
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.team__member__picture img {
+    width: 250px;
+    transform: rotate(-2.5deg)
+}
+
+.team__member__content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    margin-left: -30px;
+}
+
+.team__member__name {
+    color: rgb(255, 255, 255);
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin: 0;
+    margin-top: -50px;
+    width: 315px;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.team__member__role {
+    color: rgb(87, 81, 82);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 315px;
+    padding: 0;
+}
+
+.team__member__description {
+    color: rgb(87, 81, 82);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -5px;
+    padding: 0;
+    width: 315px;
+}
+
+.lazy__load {
+    filter: blur(4px);
+}
+

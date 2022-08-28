@@ -1,0 +1,204 @@
+/* AboutNational */
+
+.about__national {
+    margin: -22px 0 0px 0;
+    width: calc(100vw - (100vw - 100%));
+    background-color: #68C4B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.about__title {
+    color: white;
+    font-size: 3.75rem;
+    margin-right: 100px;
+    width: 300px;
+    padding: 0;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.about__title:hover{
+    transform: scale(103%);
+    transition: 0.3s;
+}
+
+.about__info {
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.about__content .about__info {
+    width: 500px;
+}
+
+.about__links {
+    display: flex;
+    align-items: center;
+}
+
+.about__link {
+    text-align: center;
+    width: 75px;
+    background-color: #FF8A8A;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #FF8A8A;
+    transition: 0.15s;
+    margin-right: 20px;
+}
+.cantClick {
+    background-color: rgb(177, 178, 181);
+    color: #555;
+    border: 1px solid rgb(177, 178, 181);
+    transition: 0.15s;
+    pointer-events: none;
+    cursor: default;
+}
+.about__link:hover{
+    background: #f57c7c;
+    border: 1px solid #f57c7c;
+}
+.cantClick:hover{
+    background-color: rgb(177, 178, 181);
+    border: 1px solid rgb(177, 178, 181);
+}
+.about__website {
+    color: blue;
+    text-decoration: none;
+    border-bottom: blue solid 2px;
+    margin: 0;
+    transition: 0.1s;
+    font-size: 1.25rem;
+}
+.about__website:hover {
+    color: rgb(56, 56, 224);
+    border-bottom-color: rgb(56, 56, 224); 
+}
+.about__website ion-icon {
+    margin-bottom: -3px;
+}
+.hero__border__bottom{
+    width: calc(100vw - (100vw - 100%));
+    transform: rotate(180deg);
+    background: #68C4B1;
+    margin-bottom: -5px;
+    /* #d5dbda; */
+}
+.hero__tape {
+    top:46vw;
+}
+
+
+/* ************** */
+/* About Regional */
+/* ************** */
+
+.about__regional, .about__summer  {
+    background-color: #7775c2;
+    width: calc(100vw - (100vw - 100%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about__regional { 
+    padding: 50px 0 125px 0; 
+    margin-top: -5px;
+}
+.about__summer { 
+    padding: 110px 0 125px 0; 
+}
+
+.about__regional .about__title, .about__summer .about__title {
+    width: 575px;
+    text-align: left;
+}
+
+.about__regional .about__info, .about__summer .about__info {
+    width: 500px;
+    margin: 0 50px 0 0;
+}
+
+.about__regional .about__content, .about__summer .about__content {
+    margin-right: -40px;
+}
+
+.about__regional a, .about__summer a {
+    margin-top: 20px;
+}
+
+.about__full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map{
+    margin-top: 30px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px;
+    background: black;
+}
+
+.calendar {
+    background:  #f57c7c;
+    width: calc(100vw - (100vw - 100%));
+    padding: 125px 0 125px 0;
+}
+.calendar__box {
+    width: calc(100vw - (100vw - 100%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar__text {
+    width: 300px;
+}
+.calendar__box iframe {
+    margin-right: 70px;
+    border-radius: 20px;
+    width: 650px;
+    height: 500px;
+    box-shadow: 5px 5px 1px;
+    background: black;
+}
+
+.calendar .border__top {
+    background: #7775c2;
+}
+.calendar .border__bottom {
+    background: #68C4B1;
+}
+
+.summer__picture__container {
+    width: 400px;
+    height: 400px;
+    filter: brightness(1);
+    border-radius: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: 5px 5px 1px;
+    background: black;
+}
+
+.about__summer img {
+    width: 550px;
+}
+
+.contact {
+    background: #444;
+    padding: 100px 0 200px 0;
+}
+.contact__icon {
+    margin-bottom: -5px;
+    color: #68C4B1;
+}
